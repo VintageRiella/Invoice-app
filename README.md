@@ -3,14 +3,10 @@
 ## 📌 Project Overview
 This is a React-based Invoice Management Application that allows users to create, manage, and track invoices with different statuses (Draft, Pending, Paid). The app also includes filtering, dark mode, and persistent storage.
 
----
-
-# 🚀 Live Demo
+## 🚀 Live Demo
 [Add your Vercel/Netlify link here]
 
----
-
-# ⚙️ Features
+## ⚙️ Features
 - Create invoices
 - Delete invoices
 - Update invoice status (Draft → Pending → Paid)
@@ -18,47 +14,33 @@ This is a React-based Invoice Management Application that allows users to create
 - Dark mode toggle
 - Persistent data using LocalStorage
 
----
-
-# 🧱 Architecture
-
-The application is built using:
+## 🧱 Architecture
+Built using:
 - React (Vite)
 - Functional components
 - useState for state management
-- useEffect for side effects (localStorage sync)
+- useEffect for localStorage sync
 
 ### Structure:
 - App.jsx → Main logic and UI
 - State-driven UI updates
 - LocalStorage for persistence
 
----
-
-# ⚖️ Trade-offs
-
+## ⚖️ Trade-offs
 - No backend/database (uses LocalStorage instead)
-- Simple UI instead of full design system (Tailwind/Material UI not used)
+- Simple UI instead of full design system
 - Single-page structure instead of multi-route architecture
 
-These were intentional to keep the app lightweight and fast for this stage.
-
----
-
-# ♿ Accessibility Notes
-
+## ♿ Accessibility Notes
 - Buttons are clearly labeled
-- High contrast colors for status indicators
+- High contrast status indicators
 - Keyboard-friendly interactions
 - Simple and readable layout
 
----
-
-# 🔧 Improvements (Future Work)
-
+## 🔧 Future Improvements
 - Add backend (Node.js + database)
 - Add invoice detail page (routing)
 - Add edit invoice functionality
 - Export invoices as PDF
-- Improve responsive design for mobile
+- Improve mobile responsiveness
 - Add authentication system
